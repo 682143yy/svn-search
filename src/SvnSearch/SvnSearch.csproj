@@ -52,8 +52,7 @@
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>
-    </ApplicationIcon>
+    <ApplicationIcon>app.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="SharpSvn, Version=1.9002.3790.82, Culture=neutral, PublicKeyToken=d729672594885a28, processorArchitecture=AMD64">
@@ -119,6 +118,9 @@
     <None Include="Resources\Blame16.png" />
     <None Include="Resources\ShowLog16.png" />
     <None Include="Resources\Tortoise16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="app.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
